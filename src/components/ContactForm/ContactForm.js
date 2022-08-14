@@ -71,7 +71,7 @@ export const Form = () => {
           value={number}
           onChange={handleChange}
         />
-        <Button type="submit" variant="contained" startIcon={<AddIcCallIcon />}>
+        <Button type="submit" variant="contained" color="success" startIcon={<AddIcCallIcon />}>
           Add Contact
         </Button>
       </form>

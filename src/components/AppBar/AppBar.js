@@ -39,7 +39,8 @@ const AppBar = () => {
             <h3 className={s.logged_text}>Welcome: {name}</h3>
             <Avatar
               className={s.user_img}
-              githubHandle="sitebase"
+              name={name}
+              backgroundColor="#00a046"
               size={30}
               round="20px"
             />
@@ -48,6 +49,7 @@ const AppBar = () => {
             sx={{ height: '30px' }}
             onClick={handlerLogout}
             variant="contained"
+            color="success"
             endIcon={<LogoutIcon />}
           >
             Log Out

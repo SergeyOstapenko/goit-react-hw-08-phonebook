@@ -76,6 +76,7 @@ const RegisterForm = () => {
         <Button
           type="submit"
           variant="contained"
+          color="success"
           endIcon={<AccountBoxOutlinedIcon />}
         >
           Register

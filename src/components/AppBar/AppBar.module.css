@@ -34,6 +34,7 @@
   .user_img {
     display: block;
     margin-right: 10px;
+    background-color: #00a046;
   }
   
   .active_link {

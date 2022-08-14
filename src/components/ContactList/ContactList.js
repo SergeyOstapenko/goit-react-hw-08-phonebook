@@ -40,7 +40,8 @@ export default function ContactList() {
             </p>
 
             <Button
-              variant="outlined"
+              variant="contained" 
+              color="success"
               startIcon={<DeleteIcon />}
               onClick={() => handlerDelete(id)}
             >
