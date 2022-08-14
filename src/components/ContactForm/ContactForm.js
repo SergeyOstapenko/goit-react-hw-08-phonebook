@@ -63,7 +63,7 @@ export const Form = () => {
           sx={{ marginRight: '70px' }}
           className={s.input}
           type="text"
-          label="Name"
+          label="Number"
           name="number"
           variant="outlined"
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"

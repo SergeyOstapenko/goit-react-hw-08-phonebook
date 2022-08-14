@@ -7,4 +7,9 @@
     margin-right: auto;
     margin-bottom: auto;
     margin-top: auto;
+    
+  }
+
+  .wrapper_img{
+    background-size: cover;
   }

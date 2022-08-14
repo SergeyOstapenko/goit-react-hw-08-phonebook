@@ -1,11 +1,11 @@
-import homeCover from '../../images/home.png';
+import homeCover from '../../images/home.jpeg';
 import s from './Home.module.css';
 
 const Home = () => {
   const home = homeCover;
   return (
     <div className={s.wrapper}>
-      <img src={home} alt="cover"></img>
+      <img className={s.wrapper_img} src={home} alt="cover"></img>
     </div>
   );
 };
