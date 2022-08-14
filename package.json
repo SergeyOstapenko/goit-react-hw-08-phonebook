@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SergeyOstapenko.github.io/rgoit-react-hw-08-phonebook/",
+  "homepage": "https://SergeyOstapenko.github.io/goit-react-hw-08-phonebook/",
   "dependencies": {
     "@emotion/styled": "^11.10.0",
     "@mui/icons-material": "^5.8.4",
