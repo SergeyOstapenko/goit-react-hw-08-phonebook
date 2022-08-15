@@ -52,6 +52,7 @@ const RegisterForm = () => {
           onChange={handlerChange}
           label="Name"
           variant="outlined"
+          color="success"
           autoComplete="name"
         />
         <TextField
@@ -62,6 +63,7 @@ const RegisterForm = () => {
           onChange={handlerChange}
           label="Email"
           variant="outlined"
+          color="success"
           autoComplete="email"
         />
         <TextField
@@ -72,6 +74,7 @@ const RegisterForm = () => {
           onChange={handlerChange}
           label="Password"
           variant="filled"
+          color="success"
         />
         <Button
           type="submit"

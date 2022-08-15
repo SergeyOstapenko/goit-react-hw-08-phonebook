@@ -46,6 +46,7 @@ const LoginForm = () => {
           onChange={handleChange}
           label="Email"
           variant="outlined"
+          color="success"
         />
         <TextField
           id="password"
@@ -55,6 +56,7 @@ const LoginForm = () => {
           onChange={handleChange}
           label="Password"
           variant="filled"
+          color="success"
         />
         <Button
           type="submit"
