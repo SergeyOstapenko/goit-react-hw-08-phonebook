@@ -1,4 +1,4 @@
-import { HashRouter, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import AppBar from './AppBar/AppBar';
 import Home from './Home/Home';
 import NotFound from 'pages/NotFoundPage/NotFound';
@@ -31,7 +31,7 @@ export const App = () => {
       ) : (
         <>
           <AppBar />
-          <HashRouter>
+          <Routes>
             <Route path="/" element={<Home />} />
             <Route
               path="register"
@@ -58,7 +58,7 @@ export const App = () => {
               }
             />
             <Route path="*" element={<NotFound />} />
-          </HashRouter>
+          </Routes>
           <ToastContainer autoClose={1000} theme="colored" />
         </>
       )}
